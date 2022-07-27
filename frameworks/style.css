@@ -9,3 +9,11 @@ h1 {
     color: black;
     text-align: center;
 }
+
+.btn-sq-responsive {
+    width: 200px !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 200px !important;
+    font-size:24px;
+}
