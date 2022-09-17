@@ -8,6 +8,7 @@ body {
 h1 {
     color: black;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn-sq-responsive {
@@ -19,3 +20,13 @@ h1 {
     font-size:24px;
     margin: 20px;
 }
+
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
